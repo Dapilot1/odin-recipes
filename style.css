@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(37, 36, 36);
+    word-spacing: 5px;
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+img{
+    width: 20%;
+}
+.collection{
+    display: flex;
+}
