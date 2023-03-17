@@ -1,10 +1,10 @@
 *{
     padding: 0;
-    margin: 10px;
+    margin: 20px 20px;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(37, 36, 36);
-    word-spacing: 5px;
+    text-decoration: none;
 }
 h1{
     color: brown;
@@ -15,9 +15,24 @@ h2{
     text-align: center;
     padding: 20px 0 20px 0;
 }
-img{
-    width: 20%;
-}
-.collection{
+.ptypes{
+    background-color: rgb(238, 228, 228);
     display: flex;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 30px;
+    padding: 40px 50px;
+}
+.pimages img{
+    width: 200px;
+    height: 290px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.pimages p{
+    text-align: center;
+}
+.pimages p a:hover{
+    color: brown;
+    font-size: 20px;
 }
